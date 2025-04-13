@@ -1,7 +1,9 @@
-import pickle
 import streamlit as st
+import pickle
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+import pandas as pd
+
 
 CLIENT_ID = "70a9fb89662f4dac8d07321b259eaad7"
 CLIENT_SECRET = "4d6710460d764fbbb8d8753dc094d131"
